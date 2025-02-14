@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M-Tech Cursos Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Escolha o seu curso</h1>
+
+        <!-- Buscador-->
+        <input type="text" id="searchInput" class="form-control mb-4" placeholder="Pesquisar cursos...">
+
+        <!-- Lista de cursos -->
+        <div class="courses-container" id="coursesList">
+
+            <!-- Curso 1 (Design) -->
+            <div class="card" data-id="curso-1" data-duracao="150" data-categoria="Design" data-nome="Design Gráfico Avançado">
+                <img src="./imagens/Design.png" class="card-img-top" alt="Imagem representativa do curso de Design Gráfico Avançado">
+                <div class="card-body">
+                    <h5 class="card-title">Design Gráfico Avançado</h5>
+                    <p class="curso-codigo"><span class="cod-label">Cod. </span><span>9832</span></p>
+                    <p class="curso-duracao">Duração: 150h</p>
+                    <a href="./cursos_design/design.html" class="btn btn-info">Saiba mais</a>
+                </div>
+                <div class="curso-categoria">Design</div>
+            </div>
+
+            <!-- Curso 2 (Design) -->
+            <div class="card" data-id="curso-2" data-duracao="100" data-categoria="Design" data-nome="Introdução ao UX e UI">
+                <img src="./imagens/UX-UI.jpg" class="card-img-top" alt="Imagem representativa do curso de Introdução ao UX e UI">
+                <div class="card-body">
+                    <h5 class="card-title">Introdução ao UX e UI</h5>
+                    <p class="curso-codigo"><span class="cod-label">Cod. </span><span>4211</span></p>
+                    <p class="curso-duracao">Duração: 100h</p>
+                    <a href="./cursos_design/ux-ui.html" class="btn btn-info">Saiba mais</a>
+                </div>
+                <div class="curso-categoria">Design</div>
+            </div>
+
+            <!-- Curso 3 (Programação) -->
+            <div class="card" data-id="curso-6" data-duracao="200" data-categoria="Programação" data-nome="Python: Do Zero ao Avançado">
+                <img src="./imagens/Python.png" class="card-img-top" alt="Imagem representativa do curso de Python">
+                <div class="card-body">
+                    <h5 class="card-title">Python: Do Zero ao Avançado</h5>
+                    <p class="curso-codigo"><span class="cod-label">Cod. </span><span>7631</span></p>
+                    <p class="curso-duracao">Duração: 200h</p>
+                    <a href="./cursos_programacao/curso_python.html" class="btn btn-info">Saiba mais</a>
+                </div>
+                <div class="curso-categoria">Programação</div>
+            </div>
+
+            <!-- Curso 4 (Programação) -->
+            <div class="card" data-id="curso-7" data-duracao="120" data-categoria="Programação" data-nome="PHP para Iniciantes">
+                <img src="./imagens/php.jpg" class="card-img-top" alt="Imagem representativa do curso de PHP">
+                <div class="card-body">
+                    <h5 class="card-title">PHP para Iniciantes</h5>
+                    <p class="curso-codigo"><span class="cod-label">Cod. </span><span>2210</span></p>
+                    <p class="curso-duracao">Duração: 120h</p>
+                    <a href="./cursos_programacao/curso_php.html" class="btn btn-info">Saiba mais</a>
+                </div>
+                <div class="curso-categoria">Programação</div>
+            </div>
+
+            <!-- Curso 5 (Programação) -->
+            <div class="card" data-id="curso-8" data-duracao="150" data-categoria="Programação" data-nome="Introdução ao Java">
+                <img src="./imagens/java.avif" class="card-img-top" alt="Imagem representativa do curso de Java">
+                <div class="card-body">
+                    <h5 class="card-title">Introdução ao Java</h5>
+                    <p class="curso-codigo"><span class="cod-label">Cod. </span><span>5347</span></p>
+                    <p class="curso-duracao">Duração: 150h</p>
+                    <a href="./cursos_programacao/curso_java.html" class="btn btn-info">Saiba mais</a>
+                </div>
+                <div class="curso-categoria">Programação</div>
+            </div>
+
+              <!-- Curso 6 (Programação) -->
+              <div class="card" data-id="curso-8" data-duracao="150" data-categoria="Programação" data-nome="Introdução ao React">
+                <img src="./imagens/react.avif" class="card-img-top" alt="Imagem representativa do curso de ReactJs">
+                <div class="card-body">
+                    <h5 class="card-title">React para inicinates</h5>
+                    <p class="curso-codigo"><span class="cod-label">Cod. </span><span>5347</span></p>
+                    <p class="curso-duracao">Duração: 150h</p>
+                    <a href="./cursos_programacao/react_iniciantes.html" class="btn btn-info">Saiba mais</a>
+                </div>
+                <div class="curso-categoria">Programação</div>
+            </div>
+
+            
+              <!-- Curso 7 (Programação) -->
+              <div class="card" data-id="curso-8" data-duracao="150" data-categoria="Programação" data-nome="Introdução ao javaScript">
+                <img src="./imagens/JS.webp" class="card-img-top" alt="Imagem representativa do curso de JavaScript">
+                <div class="card-body">
+                    <h5 class="card-title">JavaScript Avançado</h5>
+                    <p class="curso-codigo"><span class="cod-label">Cod. </span><span>5347</span></p>
+                    <p class="curso-duracao">Duração: 150h</p>
+                    <a href="./cursos_programacao/javascript-avancado.html" class="btn btn-info">Saiba mais</a>
+                </div>
+                <div class="curso-categoria">Programação</div>
+            </div>
+
+             <!-- Curso 8 (Programação) -->
+             <div class="card" data-id="curso-8" data-duracao="150" data-categoria="Programação" data-nome="Introdução ao Java">
+                <img src="./imagens/C++.jpg" class="card-img-top" alt="Imagem representativa do curso de C++">
+                <div class="card-body">
+                    <h5 class="card-title">C++ para inicinates</h5>
+                    <p class="curso-codigo"><span class="cod-label">Cod. </span><span>5347</span></p>
+                    <p class="curso-duracao">Duração: 150h</p>
+                    <a href="./cursos_programacao/cplusplus.html" class="btn btn-info">Saiba mais</a>
+                </div>
+                <div class="curso-categoria">Programação</div>
+            </div>
+
+            <!-- Curso 9 (Marketing) -->
+            <div class="card" data-id="curso-6" data-duracao="40" data-categoria="Marketing" data-nome="SEO para Iniciantes">
+                <img src="./imagens/SEO.jpg" class="card-img-top" alt="Imagem representativa do curso de SEO">
+                <div class="card-body">
+                    <h5 class="card-title">SEO para Iniciantes</h5>
+                    <p class="curso-codigo"><span class="cod-label">Cod. </span><span>9172</span></p>
+                    <p class="curso-duracao">Duração: 40h</p>
+                    <a href="./cursos_mkt/seo_iniciantes.html" class="btn btn-info">Saiba mais</a>
+                </div>
+                <div class="curso-categoria">Marketing</div>
+            </div>
+
+            <!-- Curso 10 (Marketing) -->
+            <div class="card" data-id="curso-7" data-duracao="80" data-categoria="Marketing" data-nome="Marketing Digital para Iniciantes">
+                <img src="./imagens/Marketing-Digital.jpg" class="card-img-top" alt="Imagem representativa do curso de Marketing Digital">
+                <div class="card-body">
+                    <h5 class="card-title">Marketing Digital para Iniciantes</h5>
+                    <p class="curso-codigo"><span class="cod-label">Cod. </span><span>8204</span></p>
+                    <p class="curso-duracao">Duração: 80h</p>
+                    <a href="./cursos_mkt/mktdigital.html" class="btn btn-info">Saiba mais</a>
+                </div>
+                <div class="curso-categoria">Marketing</div>
+            </div>
+
+            <!-- Curso 11 (Marketing) -->
+            <div class="card" data-id="curso-8" data-duracao="60" data-categoria="Marketing" data-nome="Google Ads">
+                <img src="./imagens/googleads.png" class="card-img-top" alt="Imagem representativa do curso de Google Ads">
+                <div class="card-body">
+                    <h5 class="card-title">Google Ads</h5>
+                    <p class="curso-codigo"><span class="cod-label">Cod. </span><span>6725</span></p>
+                    <p class="curso-duracao">Duração: 60h</p>
+                    <a href="./cursos_mkt/googleads.html" class="btn btn-info">Saiba mais</a>
+                </div>
+                <div class="curso-categoria">Marketing</div>
+            </div>
+
+            <!-- Curso 12 (Marketing) -->
+            <div class="card" data-id="curso-8" data-duracao="60" data-categoria="Marketing" data-nome="Google Ads">
+                <img src="./imagens/facebookads.png" class="card-img-top" alt="Imagem representativa do curso de Facebook Ads">
+                <div class="card-body">
+                    <h5 class="card-title">Facebook Ads para iniciantes</h5>
+                    <p class="curso-codigo"><span class="cod-label">Cod. </span><span>6725</span></p>
+                    <p class="curso-duracao">Duração: 60h</p>
+                    <a href="./cursos_mkt/facebookads.html" class="btn btn-info">Saiba mais</a>
+                </div>
+                <div class="curso-categoria">Marketing</div>
+            </div>
+
+        </div>
+    </div>
+
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <p>&copy; 2025 Plataforma de Cursos. Todos os direitos reservados.</p>
+    <p>Desenvolvido por Maria Claudia C.</p>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
